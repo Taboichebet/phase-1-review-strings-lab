@@ -2,32 +2,27 @@
   "stats": {
     "suites": 5,
     "tests": 10,
-    "passes": 9,
+    "passes": 10,
     "pending": 0,
-    "failures": 1,
-    "start": "2022-08-17T16:05:19.074Z",
-    "end": "2022-08-17T16:05:20.243Z",
-    "duration": 1169
+    "failures": 0,
+    "start": "2022-08-18T16:15:19.935Z",
+    "end": "2022-08-18T16:15:21.711Z",
+    "duration": 1776
   },
   "tests": [
     {
       "title": "is defined",
       "fullTitle": "index.js currentUser is defined",
-      "duration": 2,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains \"Welcome to Flatbook, \"",
       "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'WELCOME TO FLATBOOK, Grace Hopper!' to contain 'Welcome to Flatbook, '",
-        "showDiff": false,
-        "actual": "WELCOME TO FLATBOOK, Grace Hopper!",
-        "stack": "AssertionError: expected 'WELCOME TO FLATBOOK, Grace Hopper!' to contain 'Welcome to Flatbook, '\n    at Context.<anonymous> (test/indexTest.js:11:38)\n    at process.processImmediate (node:internal/timers:471:21)"
-      }
+      "err": {}
     },
     {
       "title": "contains the value of the 'currentUser' variable",
@@ -46,7 +41,7 @@
     {
       "title": "contains \"WELCOME TO FLATBOOK, \"",
       "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -67,14 +62,14 @@
     {
       "title": "contains \"Welcome, \"",
       "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains the first initial of the name stored in the 'currentUser' variable",
       "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -87,25 +82,19 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "contains \"Welcome to Flatbook, \"",
-      "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
-      "duration": 2,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'WELCOME TO FLATBOOK, Grace Hopper!' to contain 'Welcome to Flatbook, '",
-        "showDiff": false,
-        "actual": "WELCOME TO FLATBOOK, Grace Hopper!",
-        "stack": "AssertionError: expected 'WELCOME TO FLATBOOK, Grace Hopper!' to contain 'Welcome to Flatbook, '\n    at Context.<anonymous> (test/indexTest.js:11:38)\n    at process.processImmediate (node:internal/timers:471:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "is defined",
       "fullTitle": "index.js currentUser is defined",
-      "duration": 2,
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains \"Welcome to Flatbook, \"",
+      "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -126,7 +115,7 @@
     {
       "title": "contains \"WELCOME TO FLATBOOK, \"",
       "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -147,14 +136,14 @@
     {
       "title": "contains \"Welcome, \"",
       "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains the first initial of the name stored in the 'currentUser' variable",
       "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
